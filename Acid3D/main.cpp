@@ -1,3 +1,7 @@
+/* SORRY, WE TRIED
+WE DON'T HAVE DIRECT3D
+*/
+
 //DEPEDENCIES
 #include <windows.h>
 #include <cmath>
@@ -46,4 +50,5 @@ void Render3DText(HDC hdc, std::wstring text, float time) {
     }
 
     DeleteObject(hFont);
+
 }
